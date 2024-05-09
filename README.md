@@ -3,11 +3,14 @@
 **Installation:**
 
 1. **Prerequisites:** Make sure you have Python installed on your system. You can check by running `python --version` in your terminal. If you don't have it, download it from [https://www.python.org/downloads/](https://www.python.org/downloads/).
-2. **Install Libraries:** Open your terminal or command prompt and navigate to the directory where your project files are located. Then, run the following commands one by one:
+2. **Install Libraries:** Open your terminal or command prompt and navigate to the directory where your project files are located. Then, run the following commands:
+
+   ```bash
+   pip install -q google.generativeai  # Installs Google Generative AI library (quiet mode to suppress output)
+   ```
 
    ```bash
    pip install streamlit  # Installs Streamlit library
-   pip install -q google.generativeai  # Installs Google Generative AI library (quiet mode to suppress output)
    ```
 
 **Authentication:**
